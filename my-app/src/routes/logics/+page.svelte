@@ -32,8 +32,6 @@
 	Remove first thing
 </button>
 
-
-
  <!-- Iterates over the things array and for each item, renders a Thing component, passing the name of the item as a prop. -->
 {#each things as thing}
 	<Thing name={thing.name} />
